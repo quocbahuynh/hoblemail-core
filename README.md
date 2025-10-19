@@ -1,7 +1,9 @@
 
 # @hopmail/core
 
-> ⚡ Official core library for Hopmail — a simple and modern way to send emails using your own API.
+> ⚡ Official core library for Hopmail — the official library to send emails effortlessly through HopMail’s API, 
+with support for dynamic templates and type-safe integration.
+
 
 ![NPM Version](https://img.shields.io/npm/v/@hopmail/core?color=blue)
 ![License](https://img.shields.io/github/license/quocbahuynh/hopmail-core)
