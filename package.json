@@ -1,0 +1,42 @@
+{
+  "name": "@hopmail/core",
+  "version": "0.1.0-beta",
+  "scripts": {
+    "build": "tsup",
+    "prepare": "npm run build"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "js email",
+    "es6 email",
+    "ts email",
+    "javascript email",
+    "typescript email",
+    "hopmailjs",
+    "email templates",
+    "send email",
+    "send email from js",
+    "hopmail-com",
+    "hopmailjs-com"
+  ],
+  "author": "Hopmail",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quocbahuynh/hopmail-core.git"
+  },
+  "description": "HopMail Core SDK for sending emails via HopMail API.",
+  "devDependencies": {
+    "@types/node": "^24.8.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  }
+}
