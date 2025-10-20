@@ -1,4 +1,6 @@
 import { sendPost } from "../../api/sendPost";
+import { validateParams } from "../../utils/validateParams/validateParams";
+import { validateTemplateParams } from "../../utils/validateParams/validateTemplateParams";
 
 export const send = async (
     apiKey: string,
@@ -7,7 +9,9 @@ export const send = async (
     toMail: string,
     templateParameters?: Record<string, any>,
 ) => {
-    if (!apiKey) throw new Error("Missing apiKey");
+
+    validateParams(apiKey, emailServiceID, templateID);
+    validateTemplateParams(templateParameters);
 
     const headers = {
         "x-api-key": apiKey,
