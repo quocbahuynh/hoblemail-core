@@ -1,6 +1,7 @@
 {
   "name": "@hopmail/core",
   "version": "0.1.0-beta",
+  "type": "module",
   "scripts": {
     "build": "tsup",
     "prepare": "npm run build",
