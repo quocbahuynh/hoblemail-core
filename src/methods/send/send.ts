@@ -1,6 +1,6 @@
 import { sendPost } from "../../api/sendPost";
-import { validateParams } from "../../utils/validateParams/validateParams";
-import { validateTemplateParams } from "../../utils/validateParams/validateTemplateParams";
+import { validateParams } from "@utils/validateParams/validateParams";
+import { validateTemplateParams } from "@utils/validateTemplateParams/validateTemplateParams";
 
 export const send = async (
     apiKey: string,
