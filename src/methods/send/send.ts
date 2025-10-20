@@ -1,6 +1,7 @@
 import { sendPost } from "../../api/sendPost";
 import { validateParams } from "@utils/validateParams/validateParams";
 import { validateTemplateParams } from "@utils/validateTemplateParams/validateTemplateParams";
+import { HopMailJSResponseStatus } from "models/HopMailJSResponseStatus";
 
 export const send = async (
     apiKey: string,
@@ -8,7 +9,7 @@ export const send = async (
     templateID: string,
     toMail: string,
     templateParameters?: Record<string, any>,
-) => {
+): Promise<HopMailJSResponseStatus> => {
 
     validateParams(apiKey, emailServiceID, templateID);
     validateTemplateParams(templateParameters);

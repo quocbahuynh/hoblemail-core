@@ -3,9 +3,14 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
-    "baseUrl": "src",             
+    "baseUrl": "src",
     "paths": {
-      "@utils/*": ["utils/*"],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@methods/*": [
+        "methods/*"
+      ],
     },
     "declaration": true,
     "outDir": "dist",
@@ -13,5 +18,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }
