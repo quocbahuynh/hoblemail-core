@@ -14,9 +14,7 @@ with support for dynamic templates and type-safe integration.
 
 ## 🚀 About
 
-**@hopmail/core** is a lightweight and flexible JavaScript/TypeScript library that helps developers send emails through their Hopmail API.
-
-It provides a simple API for sending emails from any frontend or backend environment (React, Node.js, Vue, etc.).
+**@hopmail/core** is a lightweight, flexible, and developer-friendly JavaScript/TypeScript library designed to simplify email sending in modern applications.
 
 ---
 
