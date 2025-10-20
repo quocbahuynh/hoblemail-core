@@ -7,5 +7,6 @@ export default defineConfig({
   clean: true,
   sourcemap: true,
   minify: true,
+  outDir: "dist",
   external: []
 });
