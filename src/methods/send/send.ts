@@ -1,4 +1,4 @@
-import { sendPost } from "../../api/sendPost";
+import { sendPost } from "@api/sendPost";
 import { validateParams } from "@utils/validateParams/validateParams";
 import { validateTemplateParams } from "@utils/validateTemplateParams/validateTemplateParams";
 import { HopMailJSResponseStatus } from "models/HopMailJSResponseStatus";

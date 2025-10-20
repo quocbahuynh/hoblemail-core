@@ -11,6 +11,9 @@
       "@methods/*": [
         "methods/*"
       ],
+      "@api/*": [
+        "api/*"
+      ],
     },
     "declaration": true,
     "outDir": "dist",

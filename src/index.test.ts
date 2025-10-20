@@ -1,4 +1,4 @@
-import { send } from "./methods/send/send";
+import { send } from "@methods/send/send";
 import * as index from "./index";
 import { HopMailJSResponseStatus } from "models/HopMailJSResponseStatus";
 
