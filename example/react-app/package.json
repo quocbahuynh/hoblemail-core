@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@hopmail/core": "file:../../hopmail-core-0.1.0-beta.tgz",
+    "@hoblemail/core": "file:../../hoblemail-core-0.1.0-beta.tgz",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },

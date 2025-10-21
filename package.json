@@ -1,5 +1,5 @@
 {
-  "name": "@hopmail/core",
+  "name": "@hoblemail/core",
   "version": "0.1.0-beta",
   "type": "module",
   "scripts": {
@@ -24,20 +24,20 @@
     "ts email",
     "javascript email",
     "typescript email",
-    "hopmailjs",
+    "hoblemailjs",
     "email templates",
     "send email",
     "send email from js",
-    "hopmail-com",
-    "hopmailjs-com"
+    "hoblemail-com",
+    "hoblemailjs-com"
   ],
-  "author": "Hopmail",
+  "author": "HobleMail Team",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/quocbahuynh/hopmail-core.git"
+    "url": "https://github.com/quocbahuynh/hoblemail-core.git"
   },
-  "description": "HopMail Core SDK for sending emails via HopMail API.",
+  "description": "HobleMail Core SDK for sending emails via HobleMail API.",
   "devDependencies": {
     "@eslint/js": "^9.38.0",
     "@types/jest": "^30.0.0",

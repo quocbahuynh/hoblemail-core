@@ -1,4 +1,4 @@
-export class HopMailJSResponseStatus {
+export class HobleMailJSResponseStatus {
   public status: number;
   public text: string;
 

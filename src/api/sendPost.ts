@@ -1,13 +1,13 @@
 
-import { HopMailJSResponseStatus } from "../models/HopMailJSResponseStatus";
-import { store } from "../store/store";
 
+import { HobleMailJSResponseStatus } from "models/HobleMailJSResponseStatus";
+import { store } from "../store/store";
 
 export const sendPost = async (
   url: string,
   data: string | FormData,
   headers: Record<string, string> = {},
-): Promise<HopMailJSResponseStatus> => {
+): Promise<HobleMailJSResponseStatus> => {
   const response = await fetch(store.origin + url, {
     method: 'POST',
     headers,
@@ -15,7 +15,7 @@ export const sendPost = async (
   });
 
   const message = await response.text();
-  const responseStatus = new HopMailJSResponseStatus(response.status, message);
+  const responseStatus = new HobleMailJSResponseStatus(response.status, message);
 
   if (response.ok) {    
     return responseStatus;

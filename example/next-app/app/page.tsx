@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { send as hopMailSend} from "@hopmail/core";
+import { send as hobleMailSend} from "@hoblemail/core";
 
 export default function Home() {
   const [email, setEmail] = useState("");
@@ -7,7 +7,7 @@ export default function Home() {
 
   const handleSend = async () => {
     try {
-      const response = await hopMailSend(
+      const response = await hobleMailSend(
         "YOUR_API_KEY",
         "YOUR_SERVICE_ID",
         "YOUR_TEMPLATE_ID",
@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <div style={{ padding: "2rem" }}>
-      <h1>Hopmail Demo</h1>
+      <h1>HobleMail Demo</h1>
       <input
         type="email"
         value={email}

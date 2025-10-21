@@ -1,6 +1,6 @@
 import { send } from "@methods/send/send";
 import * as index from "./index";
-import { HopMailJSResponseStatus } from "models/HopMailJSResponseStatus";
+import { HobleMailJSResponseStatus } from "models/HobleMailJSResponseStatus";
 
 jest.mock("./methods/send/send", () => ({
   send: jest.fn(),
@@ -13,7 +13,7 @@ describe("index.ts", () => {
   const mockToMail = "test@example.com";
   const mockTemplateParams = { name: "John Doe" };
 
-  const mockResponse: HopMailJSResponseStatus = {
+  const mockResponse: HobleMailJSResponseStatus = {
     status: 200,
     text: "Email sent successfully",
   };
