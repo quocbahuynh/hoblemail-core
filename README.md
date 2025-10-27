@@ -1,7 +1,8 @@
 
 # HobleMail SDK for Node.js
 
-SDK for developers using Hoble Mail.
+SDK for developers using HobleMail.
+
 Ship email with one call — no SMTP required.
 
 
