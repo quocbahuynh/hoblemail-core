@@ -1,7 +1,7 @@
 
 # **@hoblemail/core** - Ship emails without one call
 
-> ⚡ **Hoble Mail** enables developers send emails from any **frontend**, **backend**, or **WordPress** project — **no SMTP setup required.**  
+> ⚡ **Hoble Mail** enables developers send emails from any **frontend**, **backend** project — **no SMTP setup required.**  
 Create templates, manage your email services, and send emails with **one simple API call.**
 
 
