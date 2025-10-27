@@ -1,8 +1,8 @@
 
-# @hoblemail/core
+# **@hoblemail/core** - Ship emails without one call
 
-> ⚡ Official core library for HobleMail — the official library to send emails effortlessly through HobleMail’s API, 
-with support for dynamic templates and type-safe integration.
+> ⚡ **Hoble Mail** enables developers send emails from any **frontend**, **backend**, or **WordPress** project — **no SMTP setup required.**  
+Create templates, manage your email services, and send emails with **one simple API call.**
 
 
 ![NPM Version](https://img.shields.io/npm/v/@hoblemail/core?color=blue)
