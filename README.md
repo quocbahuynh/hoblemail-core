@@ -1,8 +1,8 @@
 
 # HobleMail SDK for Node.js
 
-> SDK for developers using Hoble Mail.
-Create templates, register email services, and send emails with one call — no SMTP required.
+SDK for developers using Hoble Mail.
+Ship email with one call — no SMTP required.
 
 
 ![NPM Version](https://img.shields.io/npm/v/@hoblemail/core?color=blue)
