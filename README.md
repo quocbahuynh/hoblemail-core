@@ -1,8 +1,8 @@
 
-# **@hoblemail/core** - Ship emails without one call
+# HobleMail SDK for Node.js
 
-> ⚡ **Hoble Mail** enables developers send emails from any **frontend**, **backend** project — **no SMTP setup required.**  
-Create templates, manage your email services, and send emails with **one simple API call.**
+> SDK for developers using Hoble Mail.
+Create templates, register email services, and send emails with one call — no SMTP required.
 
 
 ![NPM Version](https://img.shields.io/npm/v/@hoblemail/core?color=blue)
@@ -10,29 +10,67 @@ Create templates, manage your email services, and send emails with **one simple 
 ![Build Status](https://img.shields.io/badge/status-development-yellow)
 ![Node](https://img.shields.io/node/v/@hoblemail/core)
 
----
-
-## 🚀 About
-
-**@hoblemail/core** is a lightweight, flexible, and developer-friendly JavaScript/TypeScript library designed to simplify email sending in modern applications.
-
----
 
 ## ⚠️ Status
 
 > This project is **under active development** and may change rapidly.  
 > Early adopters are welcome to try it and provide feedback!
 
----
+
+## Install
+
+```bash
+npm install @hoblemail/core
+# or
+yarn add @hoblemail/core
+
+```
+
+## Examples
+
+- [React.js](https://github.com/quocbahuynh/hoblemail-core/tree/main/example/react-app)
+- [Next.js (App Router)](https://github.com/quocbahuynh/hoblemail-core/tree/main/example/next-app)
 
 
+## Before You Start
 
-## Features
+1. **Create an Email Service** → Add your sender email in the [Hoble Mail Dashboard](https://hoblemail.com) and copy its **Email Service ID**.  
+2. **Create a Template** → Design your email content, add variables like `{{name}}`, and copy the **Template ID**.  
+3. **Get an API Key** → From **Settings → API Keys**, generate and copy your key.
 
-- 📧 Send emails via HobleMail API
-- ⚙️ Supports dynamic template parameters
-- 💡 Built with TypeScript (type-safe)
-- 🌍 Works with Node.js, React, Next.js, and serverless apps
+You’ll need these three values:
+- `API Key (xxxxx...xxxxx)`
+- `EMAIL_SERVICE_ID`
+- `TEMPLATE_ID`
+
+Then you’re ready to send your first email 🎉
+
+## 🚀 Usage
+
+Send your first email:
+
+```js
+import { send } from "@hoblemail/core";
+
+const parameters = {
+  name: "John Doe",
+  age: 18,
+};
+
+try {
+  await send({
+    apiKey: "xxxxx...xxxxx",
+    emailServiceId: "EMAIL_SERVICE_ID",
+    templateId: "TEMPLATE_ID",
+    to: "user@gmail.com",
+    templateParameters: parameters,
+  });
+
+  console.log("✅ Email sent successfully!");
+} catch (err) {
+  console.error("❌ Email sending failed!", err);
+}
+```
 
 
 ## Authors
