@@ -45,7 +45,7 @@ You’ll need these three values:
 
 Then you’re ready to send your first email 🎉
 
-## 🚀 Usage
+## Usage
 
 Send your first email:
 
